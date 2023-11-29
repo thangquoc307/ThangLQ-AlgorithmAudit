@@ -6,7 +6,6 @@ public class Algorithm_8 {
         System.out.println(reverseNumber(number2));
     }
     public static Long reverseNumber (Long number){
-        int count = 0;
         Long result = 0L;
         while (number >= 1){
             result *= 10;
