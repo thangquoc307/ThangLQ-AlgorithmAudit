@@ -4,7 +4,18 @@ import java.util.List;
 
 public class draft {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(new Integer[]{1,5,3,6,8,4,41,23}));
+
+        String[] arr = {"A", "B", "C", "D"};
+        for (int i = 0; i < arr.length; i++){
+            System.out.println(arr[i] + "");
+            if (arr[i].equals("C")){
+                continue;
+            }
+            System.out.println("ok");
+            break;
+        }
+
+
 
     }
 
